@@ -1,4 +1,4 @@
-# DataProject: Consultas SQL — Sakila 🎬
+# DataProject: Consultas SQL — Sakila 
 
 Proyecto de consultas SQL sobre la base de datos **Sakila**, que simula una tienda de alquiler de películas. El objetivo es practicar consultas desde las más básicas hasta JOINs, subconsultas, vistas y tablas temporales.
 
@@ -26,19 +26,6 @@ La BBDD contiene información sobre películas, actores, clientes, alquileres y 
 
 ---
 
-## Cómo usarlo
-
-1. Tener PostgreSQL instalado
-2. Crear la base de datos y cargar el esquema:
-
-```bash
-psql -U <tu_usuario> -c "CREATE DATABASE sakila;"
-psql -U <tu_usuario> -d sakila -f BBDD_Proyecto_shakila_sinuser.sql
-```
-
-3. Abrir `consultas_sakila.sql` y ejecutar las consultas en tu cliente SQL (pgAdmin, DBeaver, etc.)
-
----
 
 ## Consultas resueltas
 
@@ -56,4 +43,4 @@ psql -U <tu_usuario> -d sakila -f BBDD_Proyecto_shakila_sinuser.sql
 ## Stack
 
 - PostgreSQL
-- SQL
+- DBeaver
